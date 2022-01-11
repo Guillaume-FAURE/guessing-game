@@ -1,7 +1,11 @@
-#Guessing Game#
-This is a little game playable in the terminal written all in rust.
-To build this game in your machine :
-"""
+# Guessing game
+
+This is a little terminal game build in full rust
+
+## Installation
+
+To build this programm and play it on your machine:
+```bash
 $ cargo build --release
-./target/debug/guessing-game
-"""
+$ ./target/release/guessing-game
+```
