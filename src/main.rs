@@ -21,11 +21,10 @@ fn main(){
         let guess: u32 = match guess.trim().parse(){
             Ok(num) => num,
             Err(_) => {
-                println!("Please type a number");
+                println!("Please type a number!");
                 continue;
-            }
+            }            
         };
-
         println!("You guess {}", guess);
 
         match guess.cmp(&secret_number) {
